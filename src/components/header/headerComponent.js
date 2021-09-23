@@ -5,7 +5,6 @@ import { auth } from '../../firebase/firebase.utils'
 
 import { ReactComponent as Logo } from '../../assets/crown.svg'
 import './headerStyle.scss'
-import { div } from 'prelude-ls'
 
 const Header = ({ currentUser }) => {
     return (
